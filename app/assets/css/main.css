@@ -2,3 +2,22 @@
   margin: 0;
   padding: 0;
 }
+
+html, body {
+    font-size: 10px;
+    background-color: #fff;
+}
+
+body {
+    background: none;
+}
+
+.bb-tabpanel {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+/* icons */
+.icon {
+    font-size: 30px;
+}
