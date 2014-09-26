@@ -6,12 +6,91 @@
     <meta name="description" content="Jabber client for Firefox OS">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="assets/css/gaia-headers.css">
+    <link rel="stylesheet" href="assets/css/gaia-drawer.css">
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
-    <h1>Test</h1>
+<body role="application">
+  <section data-type="sidebar">
+    <header>
+      <menu type="toolbar">
+        <a href="#"><span class="icon icon-add">add</span></a>
+      </menu>
+      <h1>Title <em>(9)</em></h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">label</a></li>
+        <li><a href="#">label</a></li>
+        <li><a href="#">label</a></li>
+        <li><a href="#">label</a></li>
+      </ul>
+      <h2>Subtitle</h2>
+      <ul>
+        <li><a href="#">label</a></li>
+        <li><a href="#">label</a></li>
+        <li><a href="#">label larger label than the </a></li>
+        <li><a href="#">label</a></li>
+      </ul>
+    </nav>
+  </section>
 
+  <section id="drawer" role="region">
+    <header>
+      <a href="#"><span class="icon icon-menu">hide sidebar</span></a>
+      <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
+      <h1>Inbox</h1>
+    </header>
+    <div role="main"></div>
+  </section>
+<!--
+    <section role="region">
+        <ul role="tablist" class="bb-tablist">
+            <li id="panel1" role="presentation">
+                <a id="tab1" href="#panel1" class="" role="tab" aria-controls="tabpanel1">
+                    <i class="icon ion-chatbubbles"></i>
+                </a>
+                <div id="tabpanel1" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab1">
+                    <ul id="msgs"></ul>
+                    <form>
+                        <input id="message">
+                        <button id="send">Send</button>
+                    </form>
+                </div>
+            </li>
+            <li id="panel2" role="presentation">
+                <a id="tab2" href="#panel2" role="tab" aria-controls="tabpanel2">
+                    <i class="icon ion-person-stalker"></i>
+                </a>
+                <div id="tabpanel2" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab2">Contacts</div>
+            </li>
+            <li id="panel4" role="presentation">
+                <a id="tab4" href="#panel4" role="tab" aria-controls="tabpanel4">
+                    <i class="icon ion-gear-b"></i><br>
+                </a>
+                <div id="tabpanel4" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab4">
+                    <h1>Jabber account</h1>
+                    <form>
+                        <div>
+                            <label for="serverUrl">Server URL</label>
+                            <input id="serverUrl" type="url" placeholder="https://example.org:5281/http-bind">
+                        </div>
+                        <div>
+                            <label for="jid">Jabber ID</label>
+                            <input id="jid" type="email" placeholder="you@example.org">
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <input id="password" type="password">
+                        </div>
+                        <button id="connect">Connect</button>
+                        <div id="status">Offline</div>
+                    </form>
+                </div>
+            </li>
+        </ul>
+    </section>-->
     <script src="scripts/main.js"></script>
-
 </body>
 </html>
