@@ -171,47 +171,47 @@ section[role="region"] > header:first-child button:focus {
 ---------------------------------- */
 
 section[role="region"] > header:first-child .icon-add {
-  background-image: url(headers/images/icons/add.png);
+  background-image: url(../images/icons/add.png);
 }
 
 section[role="region"] > header:first-child .icon-compose {
-  background-image: url(headers/images/icons/compose.png);
+  background-image: url(../images/icons/compose.png);
 }
 
 section[role="region"] > header:first-child .icon-edit {
-  background-image: url(headers/images/icons/edit.png);
+  background-image: url(../images/icons/edit.png);
 }
 
 section[role="region"] > header:first-child .icon-send {
-  background-image: url(headers/images/icons/send.png);
+  background-image: url(../images/icons/send.png);
 }
 
 section[role="region"] > header:first-child .icon-close {
-  background-image: url(headers/images/icons/close.png);
+  background-image: url(../images/icons/close.png);
 }
 
 section[role="region"] > header:first-child .icon-back {
-  background-image: url(headers/images/icons/back.png);
+  background-image: url(../images/icons/back.png);
 }
 
 section[role="region"] > header:first-child .icon-menu {
-  background-image: url(headers/images/icons/menu.png);
+  background-image: url(../images/icons/menu.png);
 }
 
 section[role="region"] > header:first-child .icon-user {
-  background-image: url(headers/images/icons/user.png);
+  background-image: url(../images/icons/user.png);
 }
 
 section[role="region"] > header:first-child .icon-up {
-  background-image: url(headers/images/icons/up.png);
+  background-image: url(../images/icons/up.png);
 }
 
 section[role="region"] > header:first-child .icon-down {
-  background-image: url(headers/images/icons/down.png);
+  background-image: url(../images/icons/down.png);
 }
 
 section[role="region"] > header:first-child .icon-options {
-  background-image: url(headers/images/icons/options.png);
+  background-image: url(../images/icons/options.png);
 }
 
 /* ----------------------------------
@@ -336,22 +336,22 @@ section[role="region"].skin-organic > header:first-child button:focus,
 
 section[role="region"].skin-organic > header:first-child .icon-back,
 .skin-organic section[role="region"] > header:first-child .icon-back {
-  background-image: url(headers/images/icons/organic/back.png);
+  background-image: url(../images/icons/organic/back.png);
 }
 
 section[role="region"].skin-organic > header:first-child .icon-close,
 .skin-organic section[role="region"] > header:first-child .icon-close {
-  background-image: url(headers/images/icons/organic/close.png);
+  background-image: url(../images/icons/organic/close.png);
 }
 
 section[role="region"].skin-organic > header:first-child .icon-add,
 .skin-organic section[role="region"] > header:first-child .icon-add {
-  background-image: url(headers/images/icons/organic/add.png);
+  background-image: url(../images/icons/organic/add.png);
 }
 
 section[role="region"].skin-organic > header:first-child .icon-edit,
 .skin-organic section[role="region"] > header:first-child .icon-edit {
-  background-image: url(headers/images/icons/organic/edit.png);
+  background-image: url(../images/icons/organic/edit.png);
 }
 
 /* ----------------------------------
